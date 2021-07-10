@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Topbar from './components/Topbar';
+import Menu from './components/menu';
+import Probox from './components/Probox1';
+import Midarea from './components/Midarea';
+import Bottom from './components/Bottom';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    return ( <
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        <
+        div className = "topbar" >
+        <
+        Topbar / >
+        <
+        Menu / >
+        <
+        Probox / >
+        <
+        /div> <
+        Midarea / >
+        <
+        Bottom / >
+        <
+        />
+    );
 }
-
 export default App;

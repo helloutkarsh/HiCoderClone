@@ -1,0 +1,74 @@
+.imgBox img {
+    max-height: 50px;
+    margin-top: 10px;
+}
+
+.menuItemsList {
+    font-style: bold;
+    display: flex;
+    align-items: center;
+}
+
+.phone-menu-icon {
+    display: none;
+}
+
+.menuItems {
+    cursor: pointer;
+    color: black;
+    margin-right: 1rem;
+    padding-right: 0.5rem;
+    font-size: larger;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.menuBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+
+.menuBox {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#applyBtn {
+    background: #1c3988;
+    color: whitesmoke;
+    padding: 9px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#applyBtn:hover {
+    background-color: #172e6d;
+}
+
+#menuBoxIcon {
+    font-size: 20px;
+    padding: 7.5px;
+}
+
+@media only screen and (max-width: 480px) {
+    .top {
+        display: none;
+    }
+    .menuItemsList {
+        display: none;
+    }
+    .phone-menu-icon {
+        display: block;
+        font-size: 1.5rem;
+    }
+    .menuBar {
+        justify-content: space-around;
+        margin-left: -3rem;
+        overflow: hidden;
+        padding: inherit;
+        margin: 7.5px 0px;
+        max-width: 90%;
+    }
+}

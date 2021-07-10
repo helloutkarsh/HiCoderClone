@@ -1,0 +1,181 @@
+.area-1 h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #999;
+    font-size: 14px;
+}
+
+.area-1 {
+    margin: 3rem;
+    text-align: center;
+}
+
+.area-1 h2 {
+    margin-top: -1rem;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.highlight {
+    color: #1c3988;
+}
+
+
+/*  SECTIONS  */
+
+.section {
+    clear: both;
+    padding: 1rem;
+    margin: 1rem 6rem;
+}
+
+
+/*  COLUMN SETUP  */
+
+.col {
+    display: block;
+    float: left;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 0px 45px -22px rgb(0 0 0 / 22%);
+    background-image: linear-gradient( 180deg, #ffffff 0%, #f2f4fc 100%);
+}
+
+.col h4 {
+    font-weight: 400;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+
+/*  GROUPING  */
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+    /* For IE 6/7 */
+}
+
+
+/*  GRID OF FOUR  */
+
+.span_4_of_4 {
+    width: 100%;
+}
+
+.span_3_of_4 {
+    width: 74.6%;
+}
+
+.span_2_of_4 {
+    width: 49.2%;
+}
+
+.span_1_of_4 {
+    width: 23.8%;
+}
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+    .span_1_of_4,
+    .span_2_of_4,
+    .span_3_of_4,
+    .span_4_of_4 {
+        width: 100%;
+    }
+}
+
+.area-2 h2 {
+    font-size: 18px;
+    color: #1c3988;
+}
+
+.area-2 {
+    text-align: center;
+    margin: 40px 10px;
+}
+
+.area-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.area-3 img {
+    height: 50vh;
+}
+
+.area-3-info {
+    max-width: 440px;
+    text-align: center;
+}
+
+.area-3-info h4 {
+    font-weight: 300;
+}
+
+.partner-box h2 {
+    margin-top: 5rem;
+    color: azure;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.partner-box {
+    background-color: #1c3988;
+    font-size: 28px;
+}
+
+.partner-img div {
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: -60px;
+}
+
+.partner-img div img {
+    margin: 0px 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .col h1 {
+        font-size: 18px;
+        margin: 10px;
+        padding: 0;
+    }
+    .section {
+        padding: 0;
+        margin: 10px 30px;
+    }
+    .col {
+        margin: 10px;
+    }
+    .area-3 {
+        display: block;
+    }
+    .imgBox-6 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .area-3-info {
+        padding: 10px 20px;
+    }
+}

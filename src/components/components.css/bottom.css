@@ -1,0 +1,43 @@
+.bottom {
+    background-color: #91a9ec;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    max-width: 300px;
+}
+
+.grid-item h2 {
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.grid-item h2:hover {
+    color: blue;
+}
+
+.copyright {
+    padding: 10px;
+    text-align: center;
+}
+
+.blue-text {
+    color: blue;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:480px) {
+    .grid-container {
+        text-align: center;
+        padding-top: 20px;
+        display: block;
+    }
+}

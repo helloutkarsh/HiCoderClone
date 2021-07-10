@@ -1,0 +1,54 @@
+ body {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ .top ul {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ li {
+     list-style-type: none;
+     color: whitesmoke;
+ }
+ 
+ .top {
+     background: #1c3988;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .iconlist {
+     justify-content: space-between;
+ }
+ 
+ ul {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .container {
+     display: flex;
+ }
+ 
+ .container li {
+     padding-right: 1rem;
+ }
+ 
+ .item {
+     align-items: center;
+     justify-content: center;
+     align-self: center;
+     align-content: center;
+ }
+ 
+ @media only screen and (max-width: 480px) {
+     .top {
+         display: none;
+     }
+     .menuItemsList {
+         display: none;
+     }
+ }
