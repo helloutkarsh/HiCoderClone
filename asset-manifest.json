@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/HiCoderClone/static/css/main.74bc5eca.chunk.css",
-    "main.js": "/HiCoderClone/static/js/main.6bf87b0f.chunk.js",
-    "main.js.map": "/HiCoderClone/static/js/main.6bf87b0f.chunk.js.map",
+    "main.css": "/HiCoderClone/static/css/main.17111e0d.chunk.css",
+    "main.js": "/HiCoderClone/static/js/main.797819da.chunk.js",
+    "main.js.map": "/HiCoderClone/static/js/main.797819da.chunk.js.map",
     "runtime-main.js": "/HiCoderClone/static/js/runtime-main.36a2cca7.js",
     "runtime-main.js.map": "/HiCoderClone/static/js/runtime-main.36a2cca7.js.map",
-    "static/js/2.9c870fc6.chunk.js": "/HiCoderClone/static/js/2.9c870fc6.chunk.js",
-    "static/js/2.9c870fc6.chunk.js.map": "/HiCoderClone/static/js/2.9c870fc6.chunk.js.map",
+    "static/js/2.01f69dab.chunk.js": "/HiCoderClone/static/js/2.01f69dab.chunk.js",
+    "static/js/2.01f69dab.chunk.js.map": "/HiCoderClone/static/js/2.01f69dab.chunk.js.map",
     "index.html": "/HiCoderClone/index.html",
-    "static/css/main.74bc5eca.chunk.css.map": "/HiCoderClone/static/css/main.74bc5eca.chunk.css.map",
-    "static/js/2.9c870fc6.chunk.js.LICENSE.txt": "/HiCoderClone/static/js/2.9c870fc6.chunk.js.LICENSE.txt",
+    "static/css/main.17111e0d.chunk.css.map": "/HiCoderClone/static/css/main.17111e0d.chunk.css.map",
+    "static/js/2.01f69dab.chunk.js.LICENSE.txt": "/HiCoderClone/static/js/2.01f69dab.chunk.js.LICENSE.txt",
     "static/media/probox.css": "/HiCoderClone/static/media/image1.e7401bb4.jpg",
     "static/media/image2.92fb89b0.jpg": "/HiCoderClone/static/media/image2.92fb89b0.jpg",
     "static/media/image3.d3b4e75a.jpg": "/HiCoderClone/static/media/image3.d3b4e75a.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.36a2cca7.js",
-    "static/js/2.9c870fc6.chunk.js",
-    "static/css/main.74bc5eca.chunk.css",
-    "static/js/main.6bf87b0f.chunk.js"
+    "static/js/2.01f69dab.chunk.js",
+    "static/css/main.17111e0d.chunk.css",
+    "static/js/main.797819da.chunk.js"
   ]
 }
